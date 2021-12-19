@@ -1,0 +1,251 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/admin/Desktop/Automata Assigment/01-defender-meta-txs 2/contracts/Submit.sol": {
+      "lastModificationDate": 1639886866372,
+      "contentHash": "63ab6e9906ac3db6f7d1647ec1e4c44b",
+      "sourceName": "contracts/Submit.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/metatx/BaseRelayRecipient.sol",
+        "openzeppelin-solidity/contracts/metatx/MinimalForwarder.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Submit"
+      ]
+    },
+    "/Users/admin/Desktop/Automata Assigment/01-defender-meta-txs 2/node_modules/openzeppelin-solidity/contracts/metatx/BaseRelayRecipient.sol": {
+      "lastModificationDate": 1639812261498,
+      "contentHash": "71db81ea3889d6faad9f2bb291e92416",
+      "sourceName": "openzeppelin-solidity/contracts/metatx/BaseRelayRecipient.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BaseRelayRecipient"
+      ]
+    },
+    "/Users/admin/Desktop/Automata Assigment/01-defender-meta-txs 2/node_modules/openzeppelin-solidity/contracts/metatx/MinimalForwarder.sol": {
+      "lastModificationDate": 1639848760136,
+      "contentHash": "64e2046b4edd834b937c6b8bd3c33318",
+      "sourceName": "openzeppelin-solidity/contracts/metatx/MinimalForwarder.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../cryptography/ECDSA.sol",
+        "../drafts/EIP712.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "MinimalForwarder"
+      ]
+    },
+    "/Users/admin/Desktop/Automata Assigment/01-defender-meta-txs 2/node_modules/openzeppelin-solidity/contracts/utils/Context.sol": {
+      "lastModificationDate": 1639812261528,
+      "contentHash": "30575b3e06bd4d8351ae5f7f2453e6a2",
+      "sourceName": "openzeppelin-solidity/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/admin/Desktop/Automata Assigment/01-defender-meta-txs 2/node_modules/openzeppelin-solidity/contracts/cryptography/ECDSA.sol": {
+      "lastModificationDate": 1639812261551,
+      "contentHash": "2cd9d063ee10aff86287afba677e0811",
+      "sourceName": "openzeppelin-solidity/contracts/cryptography/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "/Users/admin/Desktop/Automata Assigment/01-defender-meta-txs 2/node_modules/openzeppelin-solidity/contracts/drafts/EIP712.sol": {
+      "lastModificationDate": 1639812261477,
+      "contentHash": "168154d46d03e7048600e597d4d53640",
+      "sourceName": "openzeppelin-solidity/contracts/drafts/EIP712.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "EIP712"
+      ]
+    },
+    "/Users/admin/Desktop/Automata Assigment/01-defender-meta-txs 2/contracts/SubmitEvent.sol": {
+      "lastModificationDate": 1639886523939,
+      "contentHash": "7b8fb3545df9d40a90fceb556e7572ff",
+      "sourceName": "contracts/SubmitEvent.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SubmitEvent"
+      ]
+    }
+  }
+}
